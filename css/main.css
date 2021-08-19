@@ -3064,7 +3064,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"]:focus,
 .contact-content textarea:focus,
 .contact-content select:focus {
-    color: #FFFFFF;
+    color: #6f8aa7
     border-bottom: 1px solid #253241;
 }
 
