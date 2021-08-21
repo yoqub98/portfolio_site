@@ -1207,7 +1207,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-    font-family: "monument", sans-serif;
+    font-family: "monument", 'san-serif';
     font-weight: 700;
     font-size: 7.8rem;
     line-height: 1.25;
@@ -1221,6 +1221,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .display-2 {
     font-family: "montserrat-medium", sans-serif;
+    letter-spacing: -2.8pt;
     font-size: 5.2rem;
     line-height: 1.255;
     color: #000000;
