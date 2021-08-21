@@ -105,10 +105,10 @@ a:hover, a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "montserrat", sans-serif;
     color: #000000;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     text-rendering: optimizeLegibility;
 }
 
@@ -169,7 +169,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-    font-size: 1.3rem;
+    font-size: 2.1rem;
     line-height: 1.385;
     text-transform: uppercase;
     letter-spacing: .16rem;
@@ -1207,7 +1207,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-    font-family: "Poppins", sans-serif;
+    font-family: "monument", sans-serif;
     font-weight: 700;
     font-size: 7.8rem;
     line-height: 1.25;
@@ -1748,13 +1748,21 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 #job_title  {
 font-weight: 100;
-font-family: 'Poppins', sans-serif;
-font-size: 4vw;
+font-family: 'montserrat', sans-serif;
+font-size: 3vw;
 color:rgb(211, 211, 211);
 width: 100%;
 margin-top: -15px;
 }
-
+#myname {
+    font-family: 'montserrat', sans-serif;
+    font-size:  48pt;
+    
+} 
+#hellotext {
+    font-family: 'montserrat', sans-serif;
+font-weight:  600;
+}
 .s-home .shadow-overlay {
     position: absolute;
     top: 0;
@@ -1809,8 +1817,9 @@ margin-top: -15px;
 }
 
 .home-content h1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "monument", sans-serif;
     font-size: 6.3rem;
+    font-weight: 800;
     line-height: 1.333;
     margin-top: 0;
     color: #FFFFFF;
@@ -2246,9 +2255,9 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__count {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600 ;
-    font-size: 8.4rem;
+    font-family: "monument", sans-serif;
+    font-weight: normal;
+    font-size: 7.4rem;
     line-height: 1;
     color: #FFFFFF;
     position: relative;
@@ -3055,7 +3064,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"]:focus,
 .contact-content textarea:focus,
 .contact-content select:focus {
-    color: #FFFFFF;
+    color: #6f8aa7
     border-bottom: 1px solid #253241;
 }
 
