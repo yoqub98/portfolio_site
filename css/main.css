@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6,
     font-family: "montserrat", sans-serif;
     color: #000000;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 600;
     text-rendering: optimizeLegibility;
 }
 
@@ -1221,7 +1221,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .display-2 {
     font-family: "montserrat-medium", sans-serif;
-    letter-spacing: -2.8pt;
+    letter-spacing: -0.9pt;
     font-size: 5.2rem;
     line-height: 1.255;
     color: #000000;
